@@ -31,5 +31,5 @@ How to run the docker image?
 ----------------------------
 
 ```bash
-docker run -i -t -v `pwd`/examples:/var/www:rw --rm myerlang /bin/bash
+docker run -i -t -v `pwd`:/var/www:rw --rm myerlang /bin/bash
 ```
